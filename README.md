@@ -13,17 +13,17 @@ This is a simple web application for inventory management. It allows users to vi
 This is the main component of the application. It handles the mode toggle functionality and renders the Inventory component.
 
 ###  2. Inventory.js
-This component displays the list of products in the inventory. It allows users to perform CRUD operations on the products.
-a) Fetches inventory data from the API
-b) Renders the list of products in a table
-c) Allows editing, deleting, and disabling/enabling products
-d) Passes down mode state to child components
+This component displays the list of products in the inventory. It allows users to perform CRUD operations on the products.   
+a) Fetches inventory data from the API. 
+b) Renders the list of products in a table. 
+c) Allows editing, deleting, and disabling/enabling products. 
+d) Passes down mode state to child components. 
 
 ### 3. EditProductModal.js
-This component is a modal that allows users to edit product details. It appears when the user clicks on the edit button for a specific product.
+This component is a modal that allows users to edit product details. It appears when the user clicks on the edit button for a specific product.    
 
-a) Displays input fields for editing product details (category, price, quantity)
-b) Allows users to save or cancel the changes
+a) Displays input fields for editing product details (category, price, quantity). 
+b) Allows users to save or cancel the changes. 
 
 ## Installation
 Clone the repository:
